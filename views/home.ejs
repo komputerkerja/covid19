@@ -1,0 +1,49 @@
+<%- include('header') %> 
+<div class="warper">
+
+    <div class="bg-dark">
+        <div class="container">
+            <h1 class="text-center text-light py-3"><i class="bi bi-activity"></i> Update Covid19</h1>
+        </div>
+    </div>
+
+    <h2 id="title"  class="text-center my-3">Seluruh Dunia</h2>
+
+    <div class="container">
+        <div class="row justify-content-center my-3">
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <div class="card-header">
+                      Terkonfirmasi
+                    </div>
+                    <div class="card-body">
+                      <h5 id="confirmed" class="card-title">0 Kasus</h5>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                      Meninggal Dunia
+                    </div>
+                    <div class="card-body">
+                      <h5 id="deaths"  class="card-title">0 Kasus</h5>
+                    </div>
+                  </div>
+            </div>
+        </div>
+
+        <div class="row justify-content-center my-3">
+            <div class="col-md-8">
+                <div id="lastUpdate" class="mb-3">Last update 20-10-2021</div>
+                <select id="country-selection" class="form-select"></select>                
+            </div>
+        </div>
+    </div>
+
+    <div class="footer bg-dark text-light py-3">
+        <p class="text-center">Copyright&copy; 2021 | ronallatupeirissa@gmail.com </p>
+    </div>
+
+</div>  
+<%- include('footer') %> 
